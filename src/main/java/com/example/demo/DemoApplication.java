@@ -22,7 +22,7 @@ public class DemoApplication {
 		return "Hello Guest";
 	}
 	@GetMapping("/client")
-	public String guest(){
+	public String client(){
 		return "Hello client";
 	}
 
